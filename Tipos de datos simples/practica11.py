@@ -1,0 +1,5 @@
+dineroDepo =  float(input ("¿Cuanto dinero tienes depositado?"))
+primerAño = round(dineroDepo + (dineroDepo * 0.04),2)
+segunAño = round(primerAño + (primerAño * 0.04),2)
+tercerAño = round(segunAño + (segunAño * 0.04),2)
+print(f"Tus ahorrros en el primer año serían de {primerAño}, en el segundo año sería de {segunAño} y en el tercer año sería de {tercerAño}")
