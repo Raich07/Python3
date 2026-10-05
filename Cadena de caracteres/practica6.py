@@ -1,0 +1,6 @@
+frase = input("Dime una frase")
+letra = input("Dime una vocal")
+letraMinus = letra.lower()
+letraMayus = letra.upper()
+fraseFinal = frase.replace(letraMinus,letraMayus)
+print(fraseFinal)
